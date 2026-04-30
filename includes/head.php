@@ -16,6 +16,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    <!-- ================= FIX LỖI CLS FONT ================= -->
+    <!-- (Lưu ý: Thay URL bên dưới bằng đường dẫn tải font thực tế của bạn nếu khác) -->
+    <link rel="preload" href="https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2" as="font"
+        type="font/woff2" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2" as="font"
+        type="font/woff2" crossorigin>
+    <!-- ==================================================== -->
+
     <!-- SEO -->
     <?php if (isset($seoArray) && is_array($seoArray)) { ?>
         <title><?= htmlspecialchars($seoArray["title"] ?? "", ENT_QUOTES, 'UTF-8') ?></title>
@@ -36,11 +44,11 @@
     <link rel="preload" href="/assets/css/spa-salon2.css?v=1" as="style">
 
     <!-- Load CSS async -->
-    <link rel="stylesheet" href="/assets/css/vendors.min2.css?v=1" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="/assets/css/style.min2.css?v=1" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="/assets/css/responsive.min2.css?v=1" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="/assets/css/blog2.css?v=1" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="/assets/css/spa-salon2.css?v=1" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="/assets/css/vendors.min2.css?v=1">
+    <link rel="stylesheet" href="/assets/css/style.min2.css?v=1">
+    <link rel="stylesheet" href="/assets/css/responsive.min2.css?v=1">
+    <link rel="stylesheet" href="/assets/css/blog2.css?v=1">
+    <link rel="stylesheet" href="/assets/css/spa-salon2.css?v=1">
 
     <!-- Fallback -->
     <noscript>
@@ -52,10 +60,8 @@
     </noscript>
 
     <!-- Font Awesome (async) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        media="print" onload="this.media='all'">
-
-    <!-- Google Fonts (non-blocking) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" <!-- Google
+        Fonts (non-blocking) -->
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap" as="style"
         onload="this.onload=null;this.rel='stylesheet'">
 

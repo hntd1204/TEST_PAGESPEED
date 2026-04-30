@@ -292,12 +292,12 @@ if (isset($uri_parts[0]) && $uri_parts[0] === 'blog' && isset($uri_parts[1])) {
                         <div class="col-xl-6 col-lg-5 position-relative offset-lg-1 offset-md-2">
                             <!--<img class="w-100" height="100" src="assets/images/photo_2025-12-05_23-06-56.webp" alt="Executive nails spa website spa salon home 01 image">-->
                             <div class="w-80 overflow-hidden position-relative md-w-90 border-radius-6px float-end">
-                                <img class="w-100" height="100" src="assets/images/demo-spa-salon-home-01.webp"
+                                <img class="w-100" width="800" height="100" src="assets/images/demo-spa-salon-home-01.webp"
                                     alt="Executive nails spa website spa salon home 01 image">
                             </div>
                             <div
                                 class="position-absolute left-minus-70px bottom-minus-30px w-60 overflow-hidden md-left-minus-100px sm-left-15px">
-                                <img class="w-100 border-radius-6px" height="100"
+                                <img class="w-100  border-radius-6px" width="800" height="100"
                                     src="assets/images/demo-spa-salon-home-02.webp"
                                     alt="Executive nails spa website spa salon home 02 image">
                             </div>
@@ -318,8 +318,8 @@ if (isset($uri_parts[0]) && $uri_parts[0] === 'blog' && isset($uri_parts[1])) {
                             class="col icon-with-text-style-03 border-end border-color-light-gray md-mb-30px xs-border-end-0">
                             <div class="feature-box ps-8 pe-8 xl-ps-2 xl-pe-2">
                                 <div class="feature-box-icon">
-                                    <img src="assets/images/icon/Professional.svg?new" height="100"
-                                        style="width: 60px; margin-bottom: 20px" alt="Professional Stylists">
+                                    <img src="assets/images/icon/Professional.svg?new" width="60" height="100"
+                                        style="margin-bottom: 20px" alt="Professional Stylists">
                                 </div>
                                 <div class="feature-box-content last-paragraph-no-margin">
                                     <span class="d-inline-block alt-font fs-22" role="heading" aria-level="3">Professional
@@ -333,8 +333,8 @@ if (isset($uri_parts[0]) && $uri_parts[0] === 'blog' && isset($uri_parts[1])) {
                             class="col icon-with-text-style-03 border-end border-color-light-gray md-mb-30px md-border-end-0">
                             <div class="feature-box ps-8 pe-8 xl-ps-2 xl-pe-2">
                                 <div class="feature-box-icon">
-                                    <img src="assets/images/icon/Luxury.svg?new" style="width: 60px; margin-bottom: 20px"
-                                        height="100" alt="Luxury Nail Treatments">
+                                    <img src="assets/images/icon/Luxury.svg?new" width="60" height="100"
+                                        style="margin-bottom: 20px" alt="Luxury Nail Treatments">
                                 </div>
                                 <div class="feature-box-content last-paragraph-no-margin">
                                     <span class="d-inline-block alt-font fs-22" role="heading" aria-level="3">Luxury Nail
@@ -348,8 +348,8 @@ if (isset($uri_parts[0]) && $uri_parts[0] === 'blog' && isset($uri_parts[1])) {
                             class="col icon-with-text-style-03 border-end border-color-light-gray xs-border-end-0 xs-mb-30px">
                             <div class="feature-box ps-8 pe-8 xl-ps-2 xl-pe-2">
                                 <div class="feature-box-icon">
-                                    <img src="assets/images/icon/Eco.svg?new" style="width: 60px; margin-bottom: 20px"
-                                        height="100" alt="Eco-Friendly Products">
+                                    <img src="assets/images/icon/Eco.svg?new" width="60" height="100"
+                                        style="margin-bottom: 20px" alt="Eco-Friendly Products">
                                 </div>
                                 <div class="feature-box-content last-paragraph-no-margin">
                                     <span class="d-inline-block alt-font fs-22" role="heading" aria-level="3">Eco-Friendly
@@ -362,8 +362,8 @@ if (isset($uri_parts[0]) && $uri_parts[0] === 'blog' && isset($uri_parts[1])) {
                         <div class="col icon-with-text-style-03">
                             <div class="feature-box ps-8 pe-8 xl-ps-2 xl-pe-2">
                                 <div class="feature-box-icon">
-                                    <img src="assets/images/icon/Affordable.svg?new"
-                                        style="width: 60px; margin-bottom: 20px" height="100" alt="Affordable price">
+                                    <img src="assets/images/icon/Affordable.svg?new" width="60" height="100"
+                                        style="margin-bottom: 20px" alt="Affordable price">
                                 </div>
                                 <div class="feature-box-content last-paragraph-no-margin">
                                     <span class="d-inline-block alt-font fs-22" role="heading" aria-level="3">Affordable
