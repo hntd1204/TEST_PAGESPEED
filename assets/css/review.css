@@ -1,0 +1,51 @@
+   .icon {
+            width: 2rem;
+        }
+
+        .main {
+            margin: 0px auto;
+            width: 334px;
+            margin-bottom: 20%;
+        }
+
+        .items {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: .9rem 2rem;
+            width: 320px;
+            background-color: rgba(255, 255, 255, 0.795);
+            margin: 1rem;
+            transition-duration: .2s;
+            cursor: pointer;
+            box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.319);
+            border-radius: 50px;
+
+        }
+
+        .items p {
+            margin: 0px;
+            font-weight: 500;
+            color: #858181;
+        }
+
+        .items:hover {
+            transform: scale(0.96);
+            background-color: rgb(255, 255, 255);
+
+        }
+
+        .font-h2 {
+            font-family: 'Rufina', serif;
+            color: #36332e;
+        }
+
+        @media (max-width: 768px) {
+            .font-h2 {
+                font-size: 36px;
+            }
+        }
+
+        a:last-child .items {
+            margin-bottom: 10%;
+        } 
